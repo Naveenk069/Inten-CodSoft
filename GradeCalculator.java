@@ -2,9 +2,9 @@
 //Calculator.java
 
 import java.util.*;
-public class calculator {
+public class GradeCalculator {
 
-	public static void main(String[] args)
+	public static void main(String[]args)
 	{
 	Scanner n=new Scanner(System.in);
 	int S1,S2,S3,S4,S5;
@@ -19,19 +19,19 @@ public class calculator {
 	System.out.println("Enter the mark for Subject_5:");
 	S5=n.nextInt();
 	int s=S1+S2+S3+S4+S5;
-	int avg=s/5;
+	int avg=s/5;                            //Calculating the Average of 5 Subjects
 	System.out.println(avg);
 	if(avg>=90)
-	 System.out.print("Grade A");
+	 System.out.print("Grade A");         //More than 90Marks!
 	else if(avg>=80&&avg<90)
-	  System.out.print("Grade B");
+	  System.out.print("Grade B");        //More than 80Marks!
 	else if(avg>=70&&avg<80)
-		  System.out.print("Grade C");
+		  System.out.print("Grade C");    //More than 70Marks!
 	else if(avg>=60&&avg<70)
-		  System.out.print("Grade D");
+		  System.out.print("Grade D");    //More than 60Marks!
 	else if(avg>=50&&avg<60)
-		  System.out.print("Grade E");
+		  System.out.print("Grade E");    //More than 50Marks!
 	else
-		System.out.print("Grade F");
+		System.out.print("Grade F");      //less than 50Marks!
 	}
 }

@@ -2,7 +2,7 @@ import java.util.*;
 
 public class ATMGenerator{
 	static int tot=0;
-	public static void main(String[] args)
+	public static void main(String[]args)
 	{
 	 Scanner sc=new Scanner(System.in);
 	 System.out.println("Welcome to Our ATM!!!  \nInsert Your ATM Card  \n Make the Transation Safe!!");
