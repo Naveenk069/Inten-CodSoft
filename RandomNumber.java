@@ -8,24 +8,24 @@ public class RandomNumber{
 	    Scanner k=new Scanner(System.in);
         Random random=new Random();
         int a=random.nextInt(100),b=1,s=0;
-        System.out.println("Random Number Generates From 0 to 99");
+        System.out.println("Welcome to the Number Game  \nEnjoy the Experience \nRandom Number Generates From 0 to 99");
         while(b<=5)
         {
-	        System.out.print("Enter The Number:");
+	        System.out.print("Enter The Number:    ");
 	        int c=k.nextInt();
 	        if(c>a)
 	        {
-		        System.out.println("The Number is Too High");
+		        System.out.println("Large value think less than this Number!!");
 		        s++;
 	        }
 	        else if(c<a)
 	        {
-		        System.out.println("The Number is Too Low");
+		        System.out.println("Small value think Greater than this Number!!");
 		        s++;
 	        }
 	        else
 	        {
-		        System.out.println("Hurrah!! It is Right Answer");
+		        System.out.println("Succesful • Yeah!! It is Right Answer");
 		        break;
 	        }
 	        b++;
@@ -34,13 +34,13 @@ public class RandomNumber{
   
         if(s==5)
         {
-	    System.out.println("Sorry Better Luck Next Time!");
+	    System.out.println("Sorry for the inconvenience • better luck next time!!");
         }
         else
         {
-	    System.out.println("Congrats!!! You Have Won The Game!");
+	    System.out.println("Congrats!! You Have Won The Game!!  \nYou are an Cracker  \nPlay Again!!");
 	    System.out.println("Your Score is "+f+"/5");
         }
-        System.out.println("The Random Number Is "+a);
+        System.out.println("The Random Number is "+a);
     }
 }
